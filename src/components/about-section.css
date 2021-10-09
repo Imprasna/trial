@@ -1,0 +1,41 @@
+.about-sec {
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.about-one {
+    background: #00000033;
+    width: 100%;
+}
+
+.about-one--img {
+    /* border: 3px solid #000; */
+    /* height: 100%; */
+    width: 50%;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+.about-one--img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-two {
+    background-color: #d6d6d6;
+    width: 100%;
+    padding: 1rem 3rem;
+}
+
+.about-two > h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about-two > p {
+    font-size: 1.2rem;
+    max-width: 70%;
+    line-height: 1.3em;
+}
